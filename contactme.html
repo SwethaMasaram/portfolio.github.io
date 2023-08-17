@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #pad{
+            padding-left: 700px;
+        }
+        #submit{
+            border-radius: 5px ; 
+            color: white;
+            background-color: #0066A2;
+            border-color: #0066A2;
+            border-style:groove;
+            cursor: pointer;
+            padding: 6px;
+        }
+        @keyframes ani{
+            0%{background-image: linear-gradient(to left bottom, #FDEFEF,#F4DFD0,#DAD0C2,#CDBBA7);}
+            50%{background-image: linear-gradient(to left bottom, #F7FFE5,#E1ECC8,#C4D7B2,#A0C49D);}
+            100%{background-image: linear-gradient(to left bottom, #FDEFEF,#F4DFD0,#DAD0C2,#CDBBA7);}
+        }
+        #div{
+            margin-top: 30px;
+            height: 400px;
+            width: 50%;
+            animation-name: ani;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body background="contagebg.jpg" >
+    <center>
+        
+    
+        
+        <div id="div">
+            <br><br>
+            <font style="font-size: 40px; color:#001C30;"><u>Contact Me</u></font>
+            <br><br><br>
+    <form action="thankyou.html">
+        <label for="name" ><font  color="#001C30">Name</font></label>
+        <input style="margin-left: 75px; border-radius: 10px; padding: 5px;" pattern="[a-zA-Z]{3,8}" type="text" required placeholder="Ex:Krishna" id="name"><br><br>
+        <label for="num"><font  color="#001C30">Contact Number</font></label>
+        <input style="margin-left: 10px; border-radius: 10px; padding: 5px;" type="tel" pattern="[6-9]{1}[0-9]{9}" required placeholder="Ex:0123456789" name="" id="num"><br><br>
+        <label for="email"><font  color="#001C30">Email id</font></label>
+        <input style="margin-left: 62px; border-radius: 10px; padding: 5px;" type="email" placeholder="Ex:abcd@gmail.com" required name="" id="email">
+        <br><br>
+        <label for="mssg"><font  color="#001C30">Message</font></label>
+        <input style="margin-left: 60px; border-radius: 10px; height: 50px;" pattern="[a-zA-Z]{10,100}" type="text" required name="" id="mssg">
+        <br><br>
+        <input  type="submit" name="" id="submit">
+    </form>
+    </div>
+</center>
+<br><br>
+
+<a style="padding-left: 400px;" href="https://instagram.com/swethamasaram?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+<img src="insta-removebg-preview.png" alt="" height="50px" width="70px"></a>
+<a style="padding-left: 50px;" href="https://www.linkedin.com/in/m-swetha-2b8100240"><img src="linkedin.png" alt="" height="50px" width="90px"></a>
+<br><br>
+
+<a style="padding-left: 55px;" href="certification.html">Previous Page</a>
+<a id="pad" href="index.html"> Home Page</a>
+<br><br>
+
+    
+</body>
+</html>
